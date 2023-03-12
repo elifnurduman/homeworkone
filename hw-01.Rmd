@@ -1,0 +1,66 @@
+---
+title: "Homework 1"
+author: ELİFNUR DUMAN 20080480
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r global_options, include=FALSE}
+# Do not delete or modify this chunk.
+# We will cover chunk options later.
+# This is required for Question 7
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Question 1** With Markdown write a sentence that has one word in bold.
+
+A person arrives at every **destination**, it is enough to look, want,
+believe and love.
+
+**Question 2** With Markdown write a sentence that has one word in
+italic.
+
+When the prices of most goods and services are *rising* over time, the
+economy is said to be experiencing inflation.
+
+**Question 3** With Markdown write a sentence that has one word in
+italic bold.
+
+***Interdependence*** in world affairs, as it does in private life,
+involves mutual dependence and cooperation.
+
+**Question 4** With Markdown write an unordered list with three items.
+
+Topics covered by Macroeconomics:<br> \*Unemployment<br> \*Inflation<br>
+\*Total production and consumption<br>
+
+**Question 5** With Markdown write an ordered list with three items.
+
+Topics covered by Microeconomics:<br> 1.Consumer behavior<br>
+2.Individual labor markets <br> 3.Theory of firms<br>
+
+**Question 6** With Markdown give a link to your favorite webpage.
+
+This is my favorite [webpage.](https://www.mahfiegilmez.com/)
+
+**Question 7** With Markdown add a cat picture.
+
+![](images/1988f12a-ed7f-4a09-88e6-0f70c3027cda.jpg){width="349"}
+
+**Question 8** With Rmarkdown insert a code chunk and give an example of
+a simple mathematical calculation in it.
+
+```{r}
+pi+2^3
+```
+
+**Question 9** With $LaTeX$ write your favorite equation in block form.
+
+$$(a_1+a_2)^2=a_1^2+2a_1a_2+a_2^2$$ **Question 10** In a code chunk
+calculate 3 + 4.
+
+```{r}
+3+4
+```
